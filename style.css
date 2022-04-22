@@ -1,0 +1,261 @@
+html, body {
+  font-family:'Prompt', sans-serif;
+  margin:0px;
+  height: 100%;
+  font-size: 16px;
+  background-color:#c7c7c7;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  padding: 15px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color:#B0C4DE;
+  padding:1rem;
+  top:0;
+  border-bottom: 10px solid lightblue;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  list-style: none
+}
+nav li a {
+  text-decoration: none;
+   padding: 1rem;
+  font-size: 2rem;  
+  color:black;
+  text-shadow: 1px 1px #ffff00
+
+  
+}
+
+.button {
+  border-radius: 5px;
+  color: #000;
+  display: block;
+  font-size: 1.5rem;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+h1 {
+  color:black;
+  font-size: 3rem;
+  font-weight: bold; 
+  text-shadow: 1px 1px #ffff00
+}
+  
+.name{  color:black;
+  font-size: 3rem;
+  font-weight: bold; 
+  text-shadow: 1px 1px #ffff00
+}
+
+/* 2. Subheader */
+.h2-exc{
+  font-size:3rem;
+  text-align: center;
+  padding: 1rem;
+  margin: 20px
+}
+.secondary-text h2 {
+  background-color: #adadad;
+  text-align: center;
+  padding: 1rem;
+}
+.secondary-text h1 {
+  color:#ffff00;   
+  background-color: #696969;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+}
+.secondary-text p {
+  font-size: 1.7rem;
+  margin: 0;
+}
+
+/* 3. Main background area */
+
+.hero-area {
+  background: url('https://cf.bstatic.com/xdata/images/region/1680x560/65985.jpg?k=b5c0b1c8a9f96dd391c6091e6b36ab7261f232c095e3e51fc3d4a080b24d422c&o=') center center no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.inset-div {
+  background-color: rgba(255,255,255,0.9);
+  margin: 25px 25px 0 0;
+  padding: 25px;
+  width: 380px;
+  height: 230px;
+  padding: 4%;
+}
+
+.main-cta {
+  background-color: #f2ff00;
+  border-bottom: 2px solid #ffd900;
+}
+
+/* 4. Three column container */
+
+.three-wide {
+  display: flex;
+  justify-content: center;
+}
+
+.third-container {
+  border-right: 1px solid lightgray;
+  margin: 10px 0;
+  padding: 2%;
+}
+
+.third-container h3 {
+  font-size: 1.5rem;
+}
+
+.third-container:last-child {
+  border: none;
+}
+
+.secondary-cta {
+  background-color: #adadad;
+  border-bottom: 2px solid #878787;
+}
+
+.flex-container1 {
+   display: flex;
+  justify-content: space-between;
+  text-align: center
+}
+
+.flex-container1 p {
+  width: 75%
+}
+
+.flex-container2 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center
+}
+
+.flex-container2 p {
+  width: 75%;
+}
+
+.flex-container1 > div {
+  margin: 30px;
+  padding: 20px;
+  font-size: 20px;
+    
+}
+
+.flex-container2 > div {
+  margin: 30px;
+  padding: 20px;
+  font-size: 20px;
+  
+    
+}
+
+#contact {
+  background-color:#c7c7c7;
+  width:50%;
+  margin: auto;
+  
+}
+
+#contact h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  ;
+}
+
+#contact input[type="text"],
+select,
+textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; 
+  
+}
+
+/* Style the submit button with a specific background color etc */
+#contact input[type="submit"] {
+  background-color: #eeeee0;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Add a background color and some padding around the form */
+#contact .container {
+  border-radius: 5px;
+  background-color: #ad9f93;
+  padding: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #B0C4DE;
+  padding:1rem;
+  top:0;
+  border-top: 10px solid lightblue;
+  padding: 1.5rem;
+  font-size: 1rem; 
+}
+
+footer p {
+  margin: 20px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin:5px
+}
+
+/* Set a specific color for each brand */
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #E56969;
+  color: white;
+}
